@@ -9,5 +9,6 @@ setup(name='bq_helper',
       url='https://github.com/SohierDane/BigQuery_Helper',
       license='Apache 2.0',
       install_requires=['pandas', 'google-cloud-bigquery'],
+      packages=find_packages(include=['bq_helper', 'test_helper'])
       classifiers=['Programming Language :: Python :: 3'],
       )
